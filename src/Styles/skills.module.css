@@ -1,0 +1,11 @@
+.progresslabel{
+  color: aliceblue;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.progressbar{
+  min-width: 20px;
+}
+
+
