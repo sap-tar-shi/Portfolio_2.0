@@ -13,7 +13,7 @@ const Sphere = () => {
       'CSS', 
       'Python', 
       'Java', 
-      'MongoDB',
+      "MongoDB",
       'TensorFlow', 
       'Django',
       'SQL',
