@@ -8,7 +8,7 @@ const About = () => {
         <div className={styles.content}>
             <Row className={styles.rowchange}>
                 <Col md={6}>
-                <h1 className={styles.heading2}>This is my About Page</h1>
+                <h1 className={styles.heading2}>About Me</h1>
                 </Col>
                 <Col md={6}>
                 <Sphere />

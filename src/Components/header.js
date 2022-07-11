@@ -24,7 +24,7 @@ const Header = () => {
                             <Nav.Link eventKey={2} href="/skills">
                                 <span className='nav-num'>02. </span> Skill and Exp
                             </Nav.Link>
-                            <Nav.Link eventKey={3} href="#">
+                            <Nav.Link eventKey={3} href="/project">
                                 <span className='nav-num'>03. </span>Project
                             </Nav.Link>
                             <Nav.Link eventKey={4} href="#">

@@ -50,7 +50,7 @@ color: rgb(32, 255, 244);
 }
 
 .socials{
-    margin-left: 70px;
+    margin-left: 40px;
     line-height: 3.0;
     position: fixed;
     bottom: 17%;
@@ -60,7 +60,7 @@ color: rgb(32, 255, 244);
 .vl-l {
 border-left: 2px solid rgb(32, 255, 244);
 height: 130px;
-margin-left: 80px;
+margin-left: 50px;
 position: fixed;
 bottom: 0;
 left: 0;
@@ -75,13 +75,13 @@ text-decoration: none;
 writing-mode: vertical-rl;
 text-orientation: mixed;
 color: aliceblue;
-margin-right: 65px;
+margin-right: 35px;
 }
 
 .vl-r {
 border-left: 2px solid rgb(32, 255, 244);
 height: 130px;
-margin-right: 80px;
+margin-right: 50px;
 position: fixed;
 bottom: 0;
 right: 0;
