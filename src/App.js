@@ -1,5 +1,4 @@
 import React from 'react';
-import Intro from './intro';
 import {
   BrowserRouter as Router,
   Routes,
@@ -8,8 +7,10 @@ import {
 import './Styles/App.css';
 import Header from './Components/header';
 import Footer from './Components/footer';
+import Intro from './intro';
 import About from './about';
 import Skills from './skills';
+import Project from './project';
 
 class App extends React.Component {
   render() {
@@ -25,6 +26,9 @@ class App extends React.Component {
           </Routes>
           <Routes>
             <Route path="/skills" element={<Skills />} />
+          </Routes>
+          <Routes>
+            <Route path="/project" element={<Project />} />
           </Routes>
         </Router>
         <Footer />
