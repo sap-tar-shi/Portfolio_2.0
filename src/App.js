@@ -1,40 +1,20 @@
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
-import './Styles/App.css';
 import Header from './Components/header';
 import Footer from './Components/footer';
-import Intro from './intro';
-import About from './about';
-import Skills from './skills';
-import Project from './project';
+import AnimatedRoute from './Components/AnimatedRoute';
+import {
+  BrowserRouter as Router,
+} from "react-router-dom";
 
-class App extends React.Component {
-  render() {
+function App() {
     return (
       <>
         <Header />
         <Router>
-          <Routes>
-            <Route path="/" element={<Intro />} />
-          </Routes>
-          <Routes>
-            <Route path="/about" element={<About />} />
-          </Routes>
-          <Routes>
-            <Route path="/skills" element={<Skills />} />
-          </Routes>
-          <Routes>
-            <Route path="/project" element={<Project />} />
-          </Routes>
+          <AnimatedRoute /> 
         </Router>
         <Footer />
       </>
     );
-  }
-}
-
+  };
 export default App;

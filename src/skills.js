@@ -3,11 +3,23 @@ import styles from "./Styles/styleguide.module.css";
 import design from "./Styles/skills.module.css";
 import ProgressBar from "@ramonak/react-progress-bar";
 import { Row, Col } from "react-bootstrap";
+import { motion } from 'framer-motion';
 
 const Skills = () => {
   return (
     <>
-      <div className={styles.content}>
+    <motion.div 
+    className={`${styles.base } ${styles.background2}`}
+    initial= {{ opacity: 0 }}
+    animate= {{ opacity: 1 }}
+    exit= {{ opacity: 0, transition: { duration: 4.5 } }}
+    >
+      <motion.div 
+        className={styles.content}
+        initial= {{ opacity: 0, ...{width:"0px"}}}
+        animate= {{ opacity: 1 , ...{width:"900px"}}}
+        exit= {{ opacity: 0, transition: { duration: 1.5 } }}
+      >
         <Row className={styles.rowchange}>
           <Col lg={6}>
             <h1 className={styles.heading2}>Skills & Experience</h1>
@@ -69,7 +81,8 @@ const Skills = () => {
             />
           </Col>
         </Row>
-      </div>
+      </motion.div>
+    </motion.div>
     </>
   );
 };
