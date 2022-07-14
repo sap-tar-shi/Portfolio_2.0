@@ -4,12 +4,9 @@ html {
 }
 
 body {
+  background-color: black;
   height: 100%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.753)),
-    /* your image */ url("./arnold-francisca-f77Bh3inUpE-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   padding: 0px 20px;
 }
 
@@ -27,6 +24,7 @@ body {
 #navbar{
     background-color: rgba(0, 0, 0, 0.521);
     padding-top: 10px;
+    z-index: 1000;
   }
   
 .navbar-light .navbar-nav .nav-link{

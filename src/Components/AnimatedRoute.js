@@ -1,7 +1,6 @@
 import React from 'react'
 import {AnimatePresence} from 'framer-motion'
 import {
-  BrowserRouter as Router,
   Routes,
   Route,
   useLocation
@@ -10,6 +9,7 @@ import '../Styles/App.css';
 import Intro from '../intro.js'; 
 import About from '../about.js';
 import Skills from '../skills.js';
+import Project from '../project';
 
 function AnimatedRoute() {
     const location = useLocation();
@@ -19,6 +19,7 @@ function AnimatedRoute() {
                 <Route path="/" element={<Intro />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/skills" element={<Skills />} />
+                <Route path="/project" element={<Project />} />
             </Routes>
         </AnimatePresence>
   )
