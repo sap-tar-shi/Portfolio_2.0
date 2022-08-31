@@ -6,15 +6,11 @@
 
 .content {
     color: aliceblue;
-      margin: 0;
-      position: absolute;
+      margin-left: 20px;
+      /* position: absolute;
       top: 18%;
-      left: 42%;
-      width: 900px;
-      -ms-transform: translateY(-20%);
-      transform: translateY(-20%);
-      -ms-transform: translateX(-40%);
-      transform: translateX(-40%);
+      left: 42%; */
+      width: 1000px;
     }
 
     .rowchange{
