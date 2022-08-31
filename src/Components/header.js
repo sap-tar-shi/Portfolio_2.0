@@ -27,8 +27,8 @@ const Header = () => {
                             <Nav.Link eventKey={3} href="/project">
                                 <span className='nav-num'>03. </span>Project
                             </Nav.Link>
-                            <Nav.Link eventKey={4} href="#">
-                                <span className='nav-num'>04. </span>  Contact
+                            <Nav.Link eventKey={4} href="/contact">
+                                <span className='nav-num'>04. </span>Contact
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

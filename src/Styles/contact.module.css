@@ -1,0 +1,10 @@
+.article{
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 100%;
+}
+
+.image{
+    max-width: 300px;
+    border-radius: 30px;
+}
