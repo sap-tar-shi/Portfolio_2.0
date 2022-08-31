@@ -11,6 +11,7 @@ import Intro from './intro';
 import About from './about';
 import Skills from './skills';
 import Project from './project';
+import Contact from './contact';
 
 class App extends React.Component {
   render() {
@@ -29,6 +30,9 @@ class App extends React.Component {
           </Routes>
           <Routes>
             <Route path="/project" element={<Project />} />
+          </Routes>
+          <Routes>
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </Router>
         <Footer />
