@@ -28,9 +28,9 @@ const Intro = () => {
 
     return (<>
         <div className={`${design.content}`}>
-            <h1>Hi...I am <span className={styles.typer} ref={el}></span></h1>
-            <span className={styles.desc1}>I Design Develop & Deploy</span>
-            <p className={styles.desc2}>
+            <h1 className={`${styles.header} font1`}>Hi...I am <span className={`${styles.typer} font1`} ref={el}></span></h1>
+            <span className={`${styles.desc1} font1`}>I Design Develop & Deploy</span>
+            <p className={`${styles.desc2} font2`}>
                 I am an undergrad Web Developer.
                 Currently pursuing Btech in CSE.<br />
                 I am a Full Stack enthusiast, and a Machine Learning Beginner.<br />

@@ -5,9 +5,10 @@
 }
 
 .content {
+    font-size: 60px;
     color: aliceblue;
     position: relative;
-    top: 30px;
+    top: 50px;
     left: 10%;
     width: 80%;
     }  

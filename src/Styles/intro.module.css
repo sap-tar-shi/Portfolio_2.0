@@ -1,5 +1,4 @@
 .typer {
-    font-size: 60px;
     font-weight: 700;
     color: rgba(37, 255, 55, 0.85);
     font-family: Arial, Helvetica, sans-serif;
@@ -7,7 +6,6 @@
   
   .desc1 {
     color: rgba(255, 255, 255, 0.699);
-    font-size: 60px;
     font-weight: 700;
   }
   
@@ -15,7 +13,6 @@
     font-family: Arial, Helvetica, sans-serif;
     color: rgba(37, 255, 55, 0.795);
     font-weight: bold;
-    font-size: 20px;
     margin: 36.8px 0px;
     line-height: 2.5;
   }
