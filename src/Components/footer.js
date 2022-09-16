@@ -10,10 +10,10 @@ const Footer = () => {
         <div className='footer'>
             <div className='footer-left'>
                 <div className='socials'>
-                    <a href='https://github.com/sap-tar-shi'><FontAwesomeIcon icon={faGithub} style={{ color: "whitesmoke", fontSize: "25px" }} /><br /></a>
-                    <a href='https://www.instagram.com/__sap_tar_shi__/'><FontAwesomeIcon icon={faInstagram} style={{ color: "whitesmoke", fontSize: "25px" }} /><br /></a>
-                    <a href='https://www.linkedin.com/in/saptarshi-datta-179289186/'><FontAwesomeIcon icon={faLinkedin} style={{ color: "whitesmoke", fontSize: "25px" }} /><br /></a>
-                    <a href='https://twitter.com/_sap_tar_shi_'><FontAwesomeIcon icon={faTwitter} style={{ color: "whitesmoke", fontSize: "25px" }} /><br /></a>
+                    <a href='https://github.com/sap-tar-shi'><FontAwesomeIcon icon={faGithub} style={{ color: "whitesmoke" }} className="social-icons"/><br /></a>
+                    <a href='https://www.instagram.com/__sap_tar_shi__/'><FontAwesomeIcon icon={faInstagram} style={{ color: "whitesmoke" }} className="social-icons"/><br /></a>
+                    <a href='https://www.linkedin.com/in/saptarshi-datta-179289186/'><FontAwesomeIcon icon={faLinkedin} style={{ color: "whitesmoke" }} className="social-icons"/><br /></a>
+                    <a href='https://twitter.com/_sap_tar_shi_'><FontAwesomeIcon icon={faTwitter} style={{ color: "whitesmoke" }} className="social-icons"/><br /></a>
                 </div>
                 <div class="vl-l"></div>
             </div>

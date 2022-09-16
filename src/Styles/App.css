@@ -35,6 +35,10 @@ color: rgb(32, 255, 244);
     bottom: 17%;
     left: 0;
   }
+
+.social-icons{
+  font-size: 25px;
+}
   
 .vl-l {
 border-left: 2px solid rgb(32, 255, 244);
@@ -64,4 +68,26 @@ margin-right: 50px;
 position: fixed;
 bottom: 0;
 right: 0;
+}
+
+@media only screen and (max-width: 650px) {
+  .social-icons{
+    font-size: 20px;
+  }
+  .socials{
+    margin-left: 16px;
+  }
+  .vl-l{
+    margin-left: 25px;
+  }
+  .vert-mail{
+    margin-right: 12px;
+    font-size: 15px;
+    bottom: 13%;
+    }
+    
+    .vl-r {
+    margin-right: 25px;
+    height: 100px;
+    }
 }

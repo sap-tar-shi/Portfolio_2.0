@@ -34,7 +34,7 @@ const Intro = () => {
                 I am an undergrad Web Developer.
                 Currently pursuing Btech in CSE.<br />
                 I am a Full Stack enthusiast, and a Machine Learning Beginner.<br />
-                I genuinly love making web Apps, and I'm open for learning new technologies.<br />
+                I genuinely love making web Apps, and I'm open for learning new technologies.<br />
                 Currently looking for internship oppurtunies and promsing Startups.<br />
             </p>
         </div>
