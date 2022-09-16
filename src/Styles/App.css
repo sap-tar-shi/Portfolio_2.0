@@ -70,6 +70,25 @@ bottom: 0;
 right: 0;
 }
 
+#canvas{
+  width: 500px;
+  height: 500px;
+}
+
+@media only screen and (max-width: 1050px) {
+  #canvas{
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  #canvas{
+    width: 400px;
+    height: 400px;
+  }
+}
+
 @media only screen and (max-width: 650px) {
   .social-icons{
     font-size: 20px;
