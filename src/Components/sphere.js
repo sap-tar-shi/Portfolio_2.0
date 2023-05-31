@@ -40,7 +40,7 @@ const Sphere = () => {
       const {
         width = 400,
         height = 400,
-        radius = 150,
+        radius = 140,
         fontSize = 22,
         tilt = 0,
         initialVelocityX = 0,

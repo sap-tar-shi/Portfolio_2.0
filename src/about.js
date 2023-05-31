@@ -11,7 +11,7 @@ const About = () => {
                 <h1 className={styles.heading2}>About Me</h1>
                 </Col>
                 <Col md={6}>
-                <Sphere />
+                    <Sphere />
                 </Col>
             </Row>
         </div>
