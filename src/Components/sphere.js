@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
+import '../Styles/App.css';
 
 
 
@@ -10,15 +11,18 @@ const Sphere = () => {
     const texts = [
       'HTML5', 
       'Javascript', 
-      'CSS', 
+      'CSS',
+      'ReactJs',
+      'Next.js',
+      'Typescript', 
       'Python', 
       'Java', 
-      'MongoDB',
-      'TensorFlow', 
+      'Tensorflow',
+      'Yolov7',
+      'NodeJS', 
       'Django',
       'SQL',
-      'ReactJs', 
-      'NodeJS'
+      'MongoDB'
     ];
     const counts = [1, 2, 4, 2, 1];
 
@@ -37,10 +41,9 @@ const Sphere = () => {
     function wordSphere(canvas, texts, counts, options) {
       const π = Math.PI; 
       const {
-        width = 500,
-        height = 500,
-        radius = 150,
-        padding = 50,
+        width = 400,
+        height = 400,
+        radius = 140,
         fontSize = 22,
         tilt = 0,
         initialVelocityX = 0,
@@ -55,13 +58,11 @@ const Sphere = () => {
 
       // canvas setup
       let ctx = canvas.getContext('2d');
-      ctx.textAlign = 'center';
+      ctx.textAlign = 'left';
 
       // Hi-DPI support
-      canvas.width = width * 2;
-      canvas.height = height * 2;
-      canvas.style.width = `${width}px`;
-      canvas.style.height = `${height}px`;
+      canvas.width = 1000;
+      canvas.height = 1000;
       ctx.scale(2, 2);
 
       // scrolling

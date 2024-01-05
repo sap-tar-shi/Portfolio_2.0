@@ -5,18 +5,18 @@
 }
 
 .content {
+    font-size: 60px;
     color: aliceblue;
-      margin-left: 20px;
-      /* position: absolute;
-      top: 18%;
-      left: 42%; */
-      width: 1000px;
-    }
+    position: relative;
+    top: 50px;
+    left: 10%;
+    width: 80%;
+    }  
 
-    .rowchange{
-        margin: 0%;
-        width: 100%;
-      }
+.rowchange{
+    margin: 0%;
+    width: 100%;
+    }
 
 .heading2 {
     color: rgba(255, 255, 255, 0.699);
