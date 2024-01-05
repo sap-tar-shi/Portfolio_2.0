@@ -11,15 +11,18 @@ const Sphere = () => {
     const texts = [
       'HTML5', 
       'Javascript', 
-      'CSS', 
+      'CSS',
+      'ReactJs',
+      'Next.js',
+      'Typescript', 
       'Python', 
       'Java', 
-      'MongoDB',
-      'TensorFlow', 
+      'Tensorflow',
+      'Yolov7',
+      'NodeJS', 
       'Django',
       'SQL',
-      'ReactJs', 
-      'NodeJS'
+      'MongoDB'
     ];
     const counts = [1, 2, 4, 2, 1];
 

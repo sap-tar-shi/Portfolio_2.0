@@ -24,7 +24,7 @@ const Skills = () => {
               <br />
             </p>
           </Col>
-          <Col lg={6} className="pt-5">
+          <Col lg={6} className="pt-4">
             <label className={design.progresslabel}>Frontend Progress</label>
             <ProgressBar
               completed={80}
